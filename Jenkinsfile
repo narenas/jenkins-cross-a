@@ -9,7 +9,7 @@ pipeline {
         stage ('Deploy') {
             steps {
                 echo 'Deploying in prod'
-                sh "./deploy.sh"
+                sh "chmod 755 && ./deploy.sh"
             }
         }
     }
