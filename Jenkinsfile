@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     triggers {
-        eventTrigger simplematch("SimpleTrigger")
+        eventTrigger simpleMatch("SimpleTrigger")
     }
 
     stages {
